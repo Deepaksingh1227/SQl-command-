@@ -1,0 +1,4 @@
+TRUNCATE TABLE persons
+
+SELECT *
+FROM persons
