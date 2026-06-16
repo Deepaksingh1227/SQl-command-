@@ -12,12 +12,12 @@ for each order display:
 SELECT 
 	o.orderid,
 	o.sales,
-	c.firstname,
-	c.lastname,
+	c.firstname As customerFName,
+	c.lastname AS customerLName,
 	p.product,
 	p.price,
-	e.firstname,
-	e.lastname
+	e.firstname AS SalesPersonFN,
+	e.lastname AS SalesPersonLN
 	
 FROM orders AS o
 LEFT JOIN customers AS c
