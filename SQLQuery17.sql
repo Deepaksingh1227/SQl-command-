@@ -57,7 +57,13 @@ ON c.id=o.customer_id
 
 
 ---------------------FUll Join-----------------------------
-SELECT *
+SELECT 
+	c.id,
+	c.first_name,
+	c.country,
+	o.order_id,
+	o.order_date,
+	o.sales
 FROM customers as c
 FULL JOIN orders as o
 ON c.id=o.customer_id
