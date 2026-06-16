@@ -17,7 +17,7 @@ WHERE first_name LIKE '%n'
 
 SELECT *
 FROM customers
-WHERE first_name LIKE '%a%'
+WHERE first_name LIKE '__r%'
 
 
 
