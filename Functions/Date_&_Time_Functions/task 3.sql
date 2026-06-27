@@ -6,3 +6,7 @@ SELECT
  WHERE MONTH(orderdate)=2
  
  GROUP BY DATENAME(MONTH,orderdate)
+
+ select *
+ FROM orders
+ WHERE MONTH(orderdate)=2
